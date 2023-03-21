@@ -157,7 +157,7 @@ const UICtrl = (function(){
             const earned = document.querySelector(UISelectors.moneyEarned);
             const spent = document.querySelector(UISelectors.moneySpent)
             const available = document.querySelector(UISelectors.moneyAvailable);
-            available.innerHTML = ((+earned.innerHTML)-(+spent.innerHTML)).toFixed(2)
+            available.innerHTML = ((+earned.innerHTML)-(+spent.innerHTML)).toFixed(0)
         },
         deleteAmount: function(id){
             //create the id we will select
