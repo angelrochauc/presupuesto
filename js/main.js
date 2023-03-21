@@ -120,7 +120,7 @@ const UICtrl = (function(){
                 return a+b
             },0);
             //display the total earned
-            const earnedTotal = document.querySelector(UISelectors.moneyEarned).innerHTML = incomeSum.toFixed(2);
+            const earnedTotal = document.querySelector(UISelectors.moneyEarned).innerHTML = incomeSum.toFixed(0);
         },
         addExpenseItem: function(item){
             //create new div
