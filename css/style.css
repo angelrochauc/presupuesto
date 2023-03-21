@@ -17,6 +17,10 @@ body{
     color: #2f3e46;
 }
 
+h1{
+    color: #fff;
+    padding: 10px;
+}
 .container{
     width: 100%;
     display: flex;
