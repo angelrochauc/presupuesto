@@ -166,6 +166,13 @@ h1{
     transform: translateX(30px);
     opacity: 0;
 }
+.copyright {
+  text-align: center;
+  color: #fff;
+  background-color: #6faaff;
+  padding: 0.6rem 0;
+}
+
 
 .item:hover .far{
     animation: showDelete;
